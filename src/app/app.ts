@@ -9,4 +9,12 @@ import { RouterOutlet } from '@angular/router';
 })
 export class App {
   protected readonly title = signal('Angular_NN');
+
+   public comprobarLog(){
+    if (1 == 1) {
+      console.log("Hola soy una funcion de prueba");
+      console.log("para aprender GIt");
+    }
+   }
+
 }
